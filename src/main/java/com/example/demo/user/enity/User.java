@@ -19,7 +19,7 @@ import java.util.Set;
 
 @Entity
 @Table(
-    name="user",
+    name="\"user\"",
     indexes = {
         @Index(columnList = "name")
     }

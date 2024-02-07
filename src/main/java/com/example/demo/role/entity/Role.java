@@ -10,7 +10,7 @@ import org.hibernate.annotations.DynamicUpdate;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "role", indexes = {
+@Table(name = "\"role\"", indexes = {
     @Index(columnList = "name")
 })
 @Getter
